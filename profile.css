@@ -1,0 +1,34 @@
+body {
+  background: url(ocean.jpg) no-repeat no-repeat center / cover;
+}
+
+.introduction {
+  display: inline;
+  text-align: center;
+  color: rgb(12, 4, 136);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 화면 전체 높이(100%)를 차지하게 설정 */
+  text-align: center;
+}
+
+.profilebox {
+  border: 3px solid black;
+}
+
+.profilepage2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* 화면 전체 높이(100%)를 차지하게 설정 */
+  text-align: center;
+}
+
+#{$prefix}card-bg: #{$card-bg};
+
